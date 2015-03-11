@@ -826,7 +826,7 @@ class Spigot(BaseServerWrapper):
 
     @classmethod
     def name(self):
-        return "spigot latest"
+        return "spigot_latest"
 
     def default_url(self):
         return "https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar"
