@@ -468,7 +468,7 @@ class Vanilla_1_2(VanillaBase):
 
     @classmethod
     def name(self):
-        return "vanilla 1.2"
+        return "vanilla_1.2"
 
     def default_url(self):
         return "http://s3.amazonaws.com/Minecraft.Download/versions/1.2.5/minecraft_server.1.2.5.jar"
@@ -487,7 +487,7 @@ class Vanilla_1_3(VanillaBase):
 
     @classmethod
     def name(self):
-        return "vanilla 1.3"
+        return "vanilla_1.3"
 
     def default_url(self):
         return "http://s3.amazonaws.com/Minecraft.Download/versions/1.3.2/minecraft_server.1.3.2.jar"
@@ -506,7 +506,7 @@ class Vanilla_1_4(VanillaBase):
 
     @classmethod
     def name(self):
-        return "vanilla 1.4"
+        return "vanilla_1.4"
 
     def default_url(self):
         return "http://s3.amazonaws.com/Minecraft.Download/versions/1.4.7/minecraft_server.1.4.7.jar"
@@ -525,7 +525,7 @@ class Vanilla_1_5(VanillaBase):
 
     @classmethod
     def name(self):
-        return "vanilla 1.5"
+        return "vanilla_1.5"
 
     def default_url(self):
         return "http://s3.amazonaws.com/Minecraft.Download/versions/1.5.2/minecraft_server.1.5.2.jar"
@@ -544,7 +544,7 @@ class Vanilla_1_6(VanillaBase):
 
     @classmethod
     def name(self):
-        return "vanilla 1.6"
+        return "vanilla_1.6"
 
     def default_url(self):
         return "https://s3.amazonaws.com/Minecraft.Download/versions/1.6.4/minecraft_server.1.6.4.jar"
@@ -563,7 +563,7 @@ class Vanilla_1_7(VanillaBase):
 
     @classmethod
     def name(self):
-        return "vanilla 1.7"
+        return "vanilla_1.7"
 
     def default_url(self):
         return "https://s3.amazonaws.com/Minecraft.Download/versions/1.7.10/minecraft_server.1.7.10.jar"
@@ -582,7 +582,7 @@ class Vanilla_1_8(VanillaBase):
 
     @classmethod
     def name(self):
-        return "vanilla 1.8"
+        return "vanilla_1.8"
 
     def default_url(self):
         return "https://s3.amazonaws.com/Minecraft.Download/versions/1.8.1/minecraft_server.1.8.1.jar"
@@ -677,7 +677,7 @@ class MinecraftForge_1_6(MinecraftForgeBase, Vanilla_1_6):
 
     @classmethod
     def name(self):
-        return "minecraft forge 1.6"
+        return "minecraft_forge_1.6"
 
     def default_url(self):
         return "http://files.minecraftforge.net/minecraftforge/minecraftforge-installer-1.6.4-9.11.1.916.jar"
@@ -694,7 +694,7 @@ class MinecraftForge_1_7(MinecraftForgeBase, Vanilla_1_7):
 
     @classmethod
     def name(self):
-        return "minecraft forge 1.7"
+        return "minecraft_forge_1.7"
 
     def default_url(self):
         return "http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.7.10-10.13.2.1291/forge-1.7.10-10.13.2.1291-installer.jar"
@@ -711,7 +711,7 @@ class MinecraftForge_1_8(MinecraftForgeBase, Vanilla_1_8):
 
     @classmethod
     def name(self):
-        return "minecraft forge 1.8"
+        return "minecraft_forge_1.8"
 
     def default_url(self):
         return "http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.8-11.14.0.1299/forge-1.8-11.14.0.1299-installer.jar"
